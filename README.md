@@ -4,8 +4,8 @@ This script allows you to download and concatenate video segments from an M3U8 f
 ## Prerequisites
 Before you begin, ensure you have the following installed on your system:
 
-- Python 3.x: Make sure Python is installed on your system. You can download it from [python.org](python.org).
-- ffmpeg: This is required to concatenate the video segments. You can download ffmpeg from [ffmpeg.org](ffmpeg.org).
+- **Python 3.x**: Make sure Python is installed on your system. You can download it from [python.org](python.org).
+- **ffmpeg**: This is required to concatenate the video segments. You can download ffmpeg from [ffmpeg.org](ffmpeg.org).
 
 ## Installation
 1. Clone the repository to your local machine:
@@ -54,15 +54,16 @@ Once the process is complete, the MP4 video will be saved in the same directory 
   $ ft.dk.bat
  ```
 
-URL of M3U8: https://example.com/video.m3u8
-Title of the file (default: ft_video.mp4):
-Start time (default: 00:00:00):
-End time (default: end of video):
+**URL of M3U8**: https://example.com/video.m3u8
+**Title of the file** (default: ft_video.mp4): title.mp4
+**Start time** (default: 00:00:00): 00:42:30
+**End time** (default: end of video): 00:58:20
 
-### Notes
-ffmpeg: If ffmpeg is not recognized as a command, make sure it is added to your system's PATH environment variable.
-Python: Ensure Python is installed and added to your system's PATH.
-License
+## Notes
+**ffmpeg**: If ffmpeg is not recognized as a command, make sure it is added to your system's PATH environment variable.
+**Python**: Ensure Python is installed and added to your system's PATH.
+
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Directory Structure
