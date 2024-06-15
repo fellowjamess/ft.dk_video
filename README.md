@@ -4,8 +4,8 @@ This script allows you to download and concatenate video segments from an M3U8 f
 ## Prerequisites
 Before you begin, ensure you have the following installed on your system:
 
-- **Python 3.x**: Make sure Python is installed on your system. You can download it from ([python.org](https://www.python.org/)).
-- **ffmpeg**: This is required to concatenate the video segments. You can download ffmpeg from ([ffmpeg.org](https://ffmpeg.org/)).
+- **Python 3.x**: Make sure Python is installed on your system. You can download it from [python.org](https://www.python.org/).
+- **ffmpeg**: This is required to concatenate the video segments. You can download ffmpeg from [ffmpeg.org](https://ffmpeg.org/).
 
 ## Installation
 1. Clone the repository to your local machine:
