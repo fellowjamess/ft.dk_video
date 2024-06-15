@@ -44,11 +44,11 @@ Wait for the Process to Complete:
 
 The script will download the video segments and concatenate them into an MP4 file. Progress will be displayed in the console.
 
-# Output:
+### Output:
 
 Once the process is complete, the MP4 video will be saved in the same directory as ft.dk.bat.
 
-# Example
+## Example
  ```bash
   $ cd path/to/your/repository
   $ ft.dk.bat
@@ -59,7 +59,7 @@ Title of the file (default: ft_video.mp4):
 Start time (default: 00:00:00):
 End time (default: end of video):
 
-Notes
+### Notes
 ffmpeg: If ffmpeg is not recognized as a command, make sure it is added to your system's PATH environment variable.
 Python: Ensure Python is installed and added to your system's PATH.
 License
@@ -74,7 +74,7 @@ ft.dk_video/
 ├── LICENSE
 └── requirements.txt
 
-# Files
+### Files
 ft.dk.bat: Batch script to run the Python script with user input.
 ft.dk_video.py: Python script that handles downloading and concatenating video segments.
 README.md: This file, containing instructions on how to use the scripts.
