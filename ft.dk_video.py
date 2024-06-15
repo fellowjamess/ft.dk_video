@@ -5,7 +5,6 @@ import requests
 from subprocess import call
 from tqdm import tqdm
 import shutil
-from datetime import datetime, timedelta
 
 def validate_m3u8_url(m3u8_url):
     """
