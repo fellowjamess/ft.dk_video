@@ -54,14 +54,14 @@ Once the process is complete, the MP4 video will be saved in the same directory 
   $ ft.dk.bat
  ```
 
-**URL of M3U8**: https://example.com/video.m3u8
-**Title of the file** (default: ft_video.mp4): title.mp4
-**Start time** (default: 00:00:00): 00:42:30
-**End time** (default: end of video): 00:58:20
++ **URL of M3U8**: https://example.com/video.m3u8
++ **Title of the file** (default: ft_video.mp4): title.mp4
++ **Start time** (default: 00:00:00): 00:42:30
++ **End time** (default: end of video): 00:58:20
 
 ## Notes
-**ffmpeg**: If ffmpeg is not recognized as a command, make sure it is added to your system's PATH environment variable.
-**Python**: Ensure Python is installed and added to your system's PATH.
++ **ffmpeg**: If ffmpeg is not recognized as a command, make sure it is added to your system's PATH environment variable.
++ **Python**: Ensure Python is installed and added to your system's PATH.
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -76,8 +76,8 @@ ft.dk_video/
 └── requirements.txt
 
 ### Files
-ft.dk.bat: Batch script to run the Python script with user input.
-ft.dk_video.py: Python script that handles downloading and concatenating video segments.
-README.md: This file, containing instructions on how to use the scripts.
-LICENSE: License information for the project.
-requirements.txt: List of Python dependencies for the project.
++ ft.dk.bat: Batch script to run the Python script with user input.
++ ft.dk_video.py: Python script that handles downloading and concatenating video segments.
++ README.md: This file, containing instructions on how to use the scripts.
++ LICENSE: License information for the project.
++ requirements.txt: List of Python dependencies for the project.
