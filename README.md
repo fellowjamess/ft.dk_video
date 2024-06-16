@@ -34,14 +34,12 @@ Double-click on ft.dk.bat to run it.
 
 3. Follow the prompts to enter the necessary details:
 
-URL of M3U8: Paste or enter the URL of the M3U8 file.
-Title of the file: (Optional) Enter the output file name for the saved MP4 video. If not specified, the default name ft_video.mp4 will be used.
-Start time: (Optional) Enter the start time in HH:MM
-format. If not specified, the video will start from the beginning.
-End time: (Optional) Enter the end time in HH:MM
-format. If not specified, the entire video will be downloaded.
-Wait for the Process to Complete:
++ URL of M3U8: Paste or enter the URL of the M3U8 file.
++ Title of the file: (Optional) Enter the output file name for the saved MP4 video. If not specified, the default name ft_video.mp4 will be used.
++ Start time: (Optional) Enter the start time in HH:MM:SS format. If not specified, the video will start from the beginning.
++ End time: (Optional) Enter the end time in HH:MM:SS format. If not specified, the entire video will be downloaded.
 
+Wait for the Process to Complete:
 The script will download the video segments and concatenate them into an MP4 file. Progress will be displayed in the console.
 
 ### Output:
