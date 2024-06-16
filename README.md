@@ -48,7 +48,7 @@ The script will download the video segments and concatenate them into an MP4 fil
 
 Once the process is complete, the MP4 video will be saved in the same directory as ft.dk.bat.
 
-## Example
+### Example
  ```bash
   $ cd path/to/your/repository
   $ ft.dk.bat
